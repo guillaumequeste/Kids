@@ -1,0 +1,22 @@
+.body {
+    height: 10vh;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    width: 50vw;
+    color: white;
+    font-size: 2em;
+}
+
+.buttonGarcons {
+    background-color: rgb(26, 129, 247);
+    border-color: rgb(26, 129, 247);
+}
+
+.buttonFilles {
+    background-color: rgb(255, 0, 221);
+    border-color: rgb(255, 0, 221);
+}

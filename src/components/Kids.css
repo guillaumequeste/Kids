@@ -1,0 +1,13 @@
+.bodyKids {
+    min-height: 95vh;
+    display: flex;
+}
+
+.pStyle {
+    margin: auto;
+}
+
+p {
+    margin: 0;
+    font-size: 5em;
+}

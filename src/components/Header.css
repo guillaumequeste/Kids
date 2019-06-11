@@ -18,9 +18,21 @@ button {
     border-color: rgb(26, 129, 247);
 }
 
+@media screen and (max-width: 1000px) {
+    .buttonGarcons {
+        font-size: 15px;
+    }
+}
+
 .buttonFilles {
     background-color: rgb(255, 0, 221);
     border-color: rgb(255, 0, 221);
+}
+
+@media screen and (max-width: 1000px) {
+    .buttonFilles {
+        font-size: 15px;
+    }
 }
 
 .buttonJungle {
@@ -28,7 +40,19 @@ button {
     border-color: rgb(0, 187, 9);
 }
 
+@media screen and (max-width: 1000px) {
+    .buttonJungle {
+        font-size: 15px;
+    }
+}
+
 .buttonDesert {
     background-color: rgb(255, 238, 1);
     border-color: rgb(255, 238, 1);
+}
+
+@media screen and (max-width: 1000px) {
+    .buttonDesert {
+        font-size: 15px;
+    }
 }

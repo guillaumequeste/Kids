@@ -14,11 +14,29 @@ p {
     font-family: 'Dancing Script', cursive;
 }
 
+@media screen and (max-width: 1000px) {
+    p {
+        font-size: 50px;
+    }
+}
+
+.essai {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+}
+
 .imgg {
     position: absolute;
     bottom: 5%;
     left: 5%;
     width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    .imgg {
+        width: 150px;
+    }
 }
 
 .imgf {
@@ -28,6 +46,12 @@ p {
     width: 300px;
 }
 
+@media screen and (max-width: 1000px) {
+    .imgf {
+        width: 150px;
+    }
+}
+
 .imgj {
     position: absolute;
     bottom: 5%;
@@ -35,9 +59,73 @@ p {
     width: 300px;
 }
 
+@media screen and (max-width: 1000px) {
+    .imgj {
+        width: 150px;
+    }
+}
+
 .imgd {
     position: absolute;
     bottom: 5%;
     left: 5%;
     width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    .imgd {
+        width: 150px;
+    }
+}
+
+.imgg2 {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    .imgg2 {
+        width: 150px;
+    }
+}
+
+.imgf2 {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    .imgf2 {
+        width: 150px;
+    }
+}
+
+.imgj2 {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    .imgj2 {
+        width: 150px;
+    }
+}
+
+.imgd2 {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    .imgd2 {
+        width: 150px;
+    }
 }

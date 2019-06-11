@@ -1,6 +1,7 @@
 //initial state
 const initialKidsState = {
-    background: 'white',
+    background: 'rgb(207, 217, 228)',
+    titre: 'block',
     color: 'black',
     titreGarcons: 'none',
     titreFilles: 'none',
@@ -21,6 +22,7 @@ export default (state = initialKidsState, action) => {
         return {
             ...state,
             background: 'rgb(26, 129, 247)',
+            titre: 'none',
             color: 'white',
             titreGarcons: 'block',
             titreFilles: 'none',
@@ -35,6 +37,7 @@ export default (state = initialKidsState, action) => {
         return {
             ...state,
             background: 'rgb(240, 99, 221)',
+            titre: 'none',
             color: 'yellow',
             titreGarcons: 'none',
             titreFilles: 'block',
@@ -49,6 +52,7 @@ export default (state = initialKidsState, action) => {
         return {
             ...state,
             background: 'rgb(0, 187, 9)',
+            titre: 'none',
             color: 'rgb(118, 69, 0)',
             titreGarcons: 'none',
             titreFilles: 'none',
@@ -63,6 +67,7 @@ export default (state = initialKidsState, action) => {
         return {
             ...state,
             background: 'rgb(255, 238, 1)',
+            titre: 'none',
             color: 'black',
             titreGarcons: 'none',
             titreFilles: 'none',

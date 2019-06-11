@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
 .body {
     height: 10vh;
     background-color: green;
@@ -6,9 +7,10 @@
 }
 
 button {
-    width: 50vw;
+    width: 25vw;
     color: white;
     font-size: 2em;
+    font-family: 'Noto Sans HK', sans-serif;
 }
 
 .buttonGarcons {
@@ -19,4 +21,14 @@ button {
 .buttonFilles {
     background-color: rgb(255, 0, 221);
     border-color: rgb(255, 0, 221);
+}
+
+.buttonJungle {
+    background-color: rgb(0, 187, 9);
+    border-color: rgb(0, 187, 9);
+}
+
+.buttonDesert {
+    background-color: rgb(255, 238, 1);
+    border-color: rgb(255, 238, 1);
 }

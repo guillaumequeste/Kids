@@ -4,16 +4,11 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { bgg, bgf, bgj, bgd } from '../actions/index'
 
-const Kids = ({ background, titre, color, titreGarcons, titreFilles, titreJungle, titreDesert, imgg, imgf, imgj, imgd }) => (
+const Kids = ({ background, color, titreTheme, imgg, imgf, imgj, imgd }) => (
     <div style={{background:`${background}`}} className="bodyKids">
         <div className="pStyle">
             <p style={{color:`${color}`}} className="essai">Ceci est un essai React-Redux :</p>
-            <p style={{display:`${titre}`}}>Choisis ton thème</p>
-            <p style={{display:`${titreGarcons}`,color:`${color}`}}>Garçons</p>
-            <p style={{display:`${titreFilles}`,color:`${color}`}}>Filles</p>
-            <p style={{display:`${titreJungle}`,color:`${color}`}}>Jungle</p>
-            <p style={{display:`${titreDesert}`,color:`${color}`}}>Désert</p>
-            
+            <p style={{color:`${color}`}}>{titreTheme}</p>
         </div>
         <div>
             <img src={require("../img/ball.png")} alt="ball" className="imgg" style={{display:`${imgg}`}}></img>
@@ -34,10 +29,7 @@ const mapStateToProps = (state) => ({
     background: state.kids.background,
     titre: state.kids.titre,
     color: state.kids.color,
-    titreGarcons: state.kids.titreGarcons,
-    titreFilles: state.kids.titreFilles,
-    titreJungle: state.kids.titreJungle,
-    titreDesert: state.kids.titreDesert,
+    titreTheme: state.kids.titreTheme,
     imgg: state.kids.imgg,
     imgf: state.kids.imgf,
     imgj: state.kids.imgj,

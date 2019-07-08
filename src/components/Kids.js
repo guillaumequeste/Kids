@@ -7,7 +7,7 @@ import { bgg, bgf, bgj, bgd } from '../actions/index'
 const Kids = ({ background, color, titreTheme, imgg, imgf, imgj, imgd }) => (
     <div style={{background:`${background}`}} className="bodyKids">
         <div className="pStyle">
-            <p style={{color:`${color}`}} className="essai">Ceci est un essai React-Redux :</p>
+            <p style={{color:`${color}`}} className="essai">Ceci est un essai React-Redux</p>
             <p style={{color:`${color}`}}>{titreTheme}</p>
         </div>
         <div>
